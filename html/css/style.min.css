@@ -24,8 +24,8 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #b46a48;
-  --bs-secondary: #ddb796;
+  --bs-primary: #facf4f;
+  --bs-secondary: #349b3f;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -43,7 +43,7 @@
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-primary-2-rgb: 231, 163, 123;
-  --bs-secondary-2-rgb: 251, 246, 242;
+  --bs-secondary-2-rgb: 250, 207, 79;
   --bs-primary-text-emphasis: #482a1d;
   --bs-secondary-text-emphasis: #58493c;
   --bs-success-text-emphasis: #0a3622;
@@ -3263,14 +3263,14 @@ progress {
   --bs-text-opacity: 1;
 }
 .bg-primary {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0.1;
   background-color: rgba(
     var(--bs-primary-rgb),
     var(--bs-bg-opacity)
   ) !important;
 }
 .bg-secondary {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0.1;
   background-color: rgba(
     var(--bs-secondary-rgb),
     var(--bs-bg-opacity)
@@ -3314,7 +3314,7 @@ progress {
   ) !important;
 }
 .bg-secondary-2 {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 0.5;
   background-color: rgba(
     var(--bs-secondary-2-rgb),
     var(--bs-bg-opacity)
@@ -6245,7 +6245,7 @@ button.vbox-link-btn:hover {
   background-image: url("../img/button.svg");
   color: #fff;
   display: block;
-  font-family: "Kaushan Script", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
   height: 74px;
   line-height: 74px;
